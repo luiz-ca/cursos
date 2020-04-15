@@ -1,0 +1,43 @@
+https://github.com/pabloads/curso-html5-css3-gustavo-guanabara
+-------------------------------------------
+Versionamento
+Tag
+<html> abertura
+</html> fechamento
+<meta charset ="UTF-8"> conjunto de caracteres
+Tag meta= não tem fechamento
+h1 Titulo
+Formatação é feita na área de cabeçalho
+{} chaves CSS letras minusculas
+tipo de fonte = font-family: Arial;
+tamanho da fonte = font-size: 30pt;
+cor= color: blue;
+sombra= text-shadow: 2px 2px 2px black;
+grupo= hgroup / titulo do mesmo grupo
+header id ="cabecalho" / cabeçalho
+-------------------------------------------
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro site</title>
+    <style>
+        h1 {
+            font-family: Arial;
+            font-size: 30pt;
+            color: blue;
+            text-shadow: 2px 2px 2px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <hr>
+    <h1>OBA!</h1>
+    <p>Este foi o primeiro site que eu criei, com um título, uma linha e um parágrafo.</p>
+</body>
+</html>
+-------------------------------------------
+
+
